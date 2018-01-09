@@ -1,0 +1,22 @@
+{
+  "name": "learn-english-with-chatwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sa2Knight/lean-english-with-chatwork.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sa2Knight/lean-english-with-chatwork/issues"
+  },
+  "homepage": "https://github.com/Sa2Knight/lean-english-with-chatwork#readme",
+  "dependencies": {
+    "post-chatwork-message": "^1.0.0"
+  }
+}
