@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Sa2Knight/lean-english-with-chatwork#readme",
   "dependencies": {
+    "cheerio-httpcli": "^0.7.2",
     "post-chatwork-message": "^1.0.0"
   }
 }
