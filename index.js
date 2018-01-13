@@ -6,8 +6,13 @@ const words = JSON.parse(fs.readFileSync('words.json', 'utf8'))
 const word  = words[Math.floor(Math.random() * words.length)]
 
 const makeChatworkMessage = (response) => {
-  var message = response.sentences.join("\n\n")
-  message += "\n\n" + response.url
+  var message = '[info]'
+  message += '[title]' + response.url + '[/title]'
+  message += '[qt]' + response.word + '[/qt]'
+  message += response.descriptions.join('\n')
+  message += '[hr]'
+  message += response.sentences.join('\n\n')
+  message += '[/info]'
   return message
 }
 

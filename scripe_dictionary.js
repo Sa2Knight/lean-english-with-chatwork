@@ -25,7 +25,7 @@ module.exports = function(word) {
       }
 
       // 結果を通知
-      return new Promise((resolve) => resolve({url,descriptions,sentences}))
+      return new Promise((resolve) => resolve({word, url,descriptions,sentences}))
     })
     .catch((err) => new Promise((_, reject) => reject(err)))
 }
